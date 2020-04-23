@@ -1,0 +1,34 @@
+{
+  "name": "waterfall",
+  "version": "1.0.0",
+  "description": "Create waterfall charts to show events in causal order",
+  "main": "index.js",
+  "private": true,
+  "bin": {
+    "waterfall": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonChangfoot/waterfall.git"
+  },
+  "contributors": [
+    "Joran Dirk Greef <joran@ronomon.com>",
+    "Donovan Changfoot <donovan.changfoot@coil.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "causal order",
+    "chrome",
+    "network requests",
+    "waterfall chart"
+  ],
+  "bugs": {
+    "url": "https://github.com/DonChangfoot/waterfall/issues"
+  },
+  "homepage": "https://github.com/DonChangfoot/waterfall#readme"
+}
