@@ -41,8 +41,6 @@ for (var index = 0; index < args.length; index++) {
     break;
   }
 }
-console.log('source: ' + source);
-console.log('target: ' + target);
 if (!source || !valid) {
   return console.error(
     'usage: waterfall [--BAR-COLOR=hex] [--BAR-COLOR=label prefix:hex]\n' +
