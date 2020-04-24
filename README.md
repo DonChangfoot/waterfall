@@ -2,6 +2,8 @@
 
 Create waterfall charts to show events in causal order.
 
+![An example network waterfall](https://github.com/DonChangfoot/waterfall/blob/master/example.png?raw=true)
+
 ## Installation
 
 You can make the `waterfall` CLI script accessible from anywhere in your path:
