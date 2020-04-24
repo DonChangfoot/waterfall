@@ -53,4 +53,4 @@ waterfall --EXCLUDE="dns lookup" <data-file>
 
 ## Acknowledgements
 
-This script was created by [Joran Dirk Greef](https://github.com/jorangreef) and [Donovan Changfoot](https://github.com/DonChangfoot) as part of performance testing work on [Mojaloop](https://mojaloop.io) sponsored by [Coil](https://coil.com).
+This script was created by [Joran Dirk Greef](https://github.com/jorangreef) and [Donovan Changfoot](https://github.com/DonChangfoot) as part of performance testing work on [Mojaloop](https://mojaloop.io) by [Coil](https://coil.com).
