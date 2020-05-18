@@ -1,9 +1,8 @@
 {
-  "name": "waterfall",
+  "name": "@donchangfoot/waterfall",
   "version": "1.0.0",
   "description": "Create waterfall charts to show events in causal order",
   "main": "index.js",
-  "private": true,
   "bin": {
     "waterfall": "cli.js"
   },
