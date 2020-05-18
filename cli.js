@@ -48,7 +48,15 @@ if (!source || !valid) {
     ' <data-file> [png-file]'
   );
 }
-if (!target) target = source + '.png';
+if (!target) {
+  target = source;
+  let parts = target.split('.');
+  let extension = parts.pop();
+  if (parts.length > 0 && parts[0].length > 0) {
+    target = target.split('.').slice(0, -1).join('.');
+  }
+  target += '.png';
+}
 if (!/\.png$/.test(target)) {
   return console.error(
     '<png-file> does not have a ".png" extension: ' + target
