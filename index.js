@@ -124,7 +124,13 @@ Waterfall.html = function(events, options) {
         return normalizedLabel.indexOf(normalizedPrefix) === 0;
       }
       // Decide on the bar color for this event:
-      var barcolor = 'red';
+      // TODO: Auto-detect label prefixes using colon and use the same
+      // Hue-Saturation with changing Lightness for different label prefixes.
+      // For example: These are "watery" colors with the same Hue-Saturation:
+      // #67abff
+      // #338fff
+      // #c8e1ff
+      var barcolor = '#67abff';
       options.barcolor.some(
         function(value) {
           if (/:/.test(value)) {
