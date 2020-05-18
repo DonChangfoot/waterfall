@@ -69,6 +69,8 @@ Waterfall.events = function(buffer, options) {
       }
     }
   );
+  // TODO: Add an option to match or exclude label prefixes.
+  // This is useful when you only want to see certain events.
   events.sort(
     function(a, b) {
       if (a.start < b.start) return -1;
