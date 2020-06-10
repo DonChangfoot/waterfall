@@ -9,7 +9,7 @@ Create waterfall charts to show events in causal order.
 You can make the `waterfall` CLI script accessible from anywhere in your path:
 
 ```
-sudo npm install -g @donchangfoot/waterfall
+sudo npm install -g waterfall
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "@donchangfoot/waterfall",
+  "name": "waterfall",
   "version": "2.0.1",
   "description": "Create waterfall charts to show events in causal order",
   "main": "index.js",
