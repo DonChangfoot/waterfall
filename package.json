@@ -1,6 +1,6 @@
 {
   "name": "waterfall",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Create waterfall charts to show events in causal order",
   "main": "index.js",
   "bin": {
